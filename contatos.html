@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+
+        <div class="logo">
+            <div class="logo_img"> 
+                <img id="logo_DD" src="img/logo.png" alt="">
+                <img id="DD" src="img/DreamDev.png" alt="">
+            </div>
+            <div class="logo_menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Principal</a></li>
+                        <li><a href="quem_somos.html">Quem Somos</a></li>
+                        <li><a href="portifolio.html">Portfólio</a></li>
+                        <li><a href="contatos.html">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>    
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="title_contatos">
+            <p>Formulário para Contato</p>
+        </div>
+
+        <form id="contatosForm">
+
+            <div class="name">
+
+                <h6 class="title_name">Nome</h6>
+                <input type="text" id="nome1" class="caixa_name" aria-describedby="name" placeholder="Digite seu nome" required>
+
+            </div>
+    
+            <div class="email">
+
+                <h6 class="title_email">E-mail</h6>
+                <input type="email" class="caixa_email" id="email1" placeholder="Digite o seu E-mail" required>
+
+            </div>
+    
+            <div class="mensagem">
+
+                <h6 class="title_mensagem">Mensagem:</h6>
+                <input type="text" id="mensagem1" class="caixa_mensagem" aria-rowspan="10" aria-describedby="name" placeholder="Digite aqui..." required>
+
+            </div>  
+
+              <div class="enviar">
+
+                <button class="btn" id="submitButton1" type="submit" >ENVIAR</button>
+
+              </div>
+    
+           
+
+        </form>
+        
+        <div class="email_contatos">
+            <h4>Nosso E-mail:</h4>
+           <div><a href="mailto:dream.dev@gmail.com"><b><p>dream.dev@gmail.com</p></b></div></a>
+        </div>
+    
+    </main>
+
+    <footer>
+        <div>
+            <p>© 2024 DreamDev. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
