@@ -197,6 +197,40 @@ a:hover {
     font-size: 18pt;
 }
 
+#portifolios{
+  margin: 0 auto;
+  background-color: #848dbe;
+  width: 70%;
+  height: 500px;
+  justify-content:center ;
+  align-items: center;
+  border-radius: 20px;
+}
+
+#portifolios h1{
+  color: #150D45;
+  text-align: center;
+  margin-top: 20%;
+  padding-top: 5%;
+
+}
+
+.link_portifolio1,
+.link_portifolio2,
+.link_portifolio3{
+  width: 20%;
+  background-color:#150D45 ;
+  color:#5FC4FB;
+  float: left;
+  padding: 5px 0;
+  margin: 0 auto;
+  margin-top: 18%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  border-radius: 50px;
+  font-size: 18pt;
+  text-align: center;
+}
 /* referente a pagina  quem_somos.html*/
 
 .logo {
@@ -205,20 +239,21 @@ a:hover {
 
 .A{
   display: grid;
+  font-size: large;
 }
 
 .primeiro,
 .segundo,
 .terceiro{
     padding-left: 4%;
-    font-size: 10pt;
+    font-size: xx-large;
 }
 
 .primeiro {
     background-color: #CBCAF0;
     position: relative; /* Torna a div "primeiro" um contêiner de posicionamento */
     width: 560px; /* Define a largura da div "primeiro" */
-    height: 280px; /* Define a altura da div "primeiro" */
+    height: 310px; /* Define a altura da div "primeiro" */
     margin: 20px; /* Adiciona margem ao redor da div */
     margin-bottom: 80px;
     font-family: 'Moderat', sans-serif;
@@ -226,12 +261,15 @@ a:hover {
     border-radius: 20px;
     grid-column: 1;
     grid-row: 1;
+    font-size: x-large;
+    padding: 2%;
 }
 .objetivos{
     margin: 20px;
 }
 .tr{
   margin: 20px;
+  
 }
 
 
@@ -330,6 +368,7 @@ a:hover {
     margin-top: 150px;
   }
 
+
   .button-planos {
     grid-column: 1;
     grid-row: 3;
@@ -355,7 +394,7 @@ a:hover {
      
   }
 
-/* referente a pagina portifolio */
+
 
 /* referente a pagina contatos */
 
@@ -470,49 +509,89 @@ a:hover {
 /* referente a pagina planos */
 
 .title_planos{
-    width: 30%;
-    color: #5FC4FB;
-    text-align: center;
-    padding: 5px 0;
-    margin: 0 auto;
-    margin-top:5%;
-    margin-bottom: 8%;
-    border-radius: 50px;
-    font-size: 24pt;
-    font-weight: normal;
+  width: 30%;
+  color: #5FC4FB;
+  text-align: center;
+  padding: 5px 0;
+  margin: 0 auto;
+  margin-top:5%;
+  margin-bottom: 8%;
+  border-radius: 50px;
+  font-size: 24pt;
+  font-weight: normal;
 }
 
 .container_block{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .block1,
 .block2,
 .block3 { 
-    background-color: #a51818;
-    color:#150D45;
-    width: 250px;
-    height: 400px;
-    float:left;
-    margin-left: 10px;
-    padding: 10px;
-    justify-content: center;
+  background-color: #FFFFFF;
+  color:#150D45;
+  width: 250px;
+  height: 500px;
+  float:left;
+  margin-left: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+.R {
+  font-size:smaller;
+}
+.pricing-price {
+  font-size: larger;
+}
+.pricing-d {
+  padding-bottom: 30%;
+  font-size: small;
+}
+.pricing-f{
+  margin-top:85px;
+  font-size: small;
+  margin-bottom: 8px;
+}
+.btn {
+  background-color: #8C54FA;
+  color: #5FC4FB;
+  width: 50%;
+  margin-top: 20%;
+  margin-left: 20%;
+  border-radius: 20px;
+}
+.pricing-ff {
+  margin-top: 50px;
+  margin-bottom: 1px;
+  font-size: small;
 }
 
-.block1{
-
+.pricing-fff {
+  margin-top: -40px;
+  margin-bottom: -12px;
+  font-size: small;
 }
 
-.block2{
-
+.m1 {
+  padding: 5%;
+  align-items: center;
+  margin-left: 15%;
 }
 
-.block3{
-
+.m2 {
+  padding: 5%;
+  align-items: center;
+  margin-left: 15%;
 }
+.m3 {
+  padding: 5%;
+  align-items: center;
+  margin-left: 15%;
+}
+
 
 /*referente ao portifolio Victor*/
 
