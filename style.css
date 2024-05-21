@@ -2,7 +2,37 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+  
+    
 }
+
+@media (max-width: 768px) {
+  body {
+    overflow: scroll;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+.title_DD p{
+    font-size: 10px;
+  }
+
+.container p{
+  font-size: 1rem;
+}
+
+  h2{
+    font-size: 1rem;
+  }
+}
+
 
 body {
     font-family: Arial, sans-serif;
@@ -16,7 +46,7 @@ header {
     color: #150D45;
     padding: 1rem;
     justify-content: space-between;
-    overflow: hidden;
+    
     align-items: center;
     margin: 40px 20px 0 20px;
     border-radius: 20px 20px 0 0;
@@ -48,7 +78,7 @@ main {
     height: auto;
     margin: 0 20px 0 20px;
     border-radius: 0 ;
-    overflow: hidden;
+    
 }
 
 footer{
@@ -56,7 +86,7 @@ footer{
     color: #150D45;
     padding: 1rem;
     justify-content: space-between;
-    overflow: hidden;
+    
     align-items: center;
     text-align: center;
     margin: 0px 20px 40px 20px;
@@ -75,17 +105,19 @@ a:hover {
 
 /* header*/
 .logo{
-    display: flex;
+   display: contents;
+  
     width: 95%;
    
 }
 
 .logo_img{
-    display:contents;
-    float:left;
+display: inline-flex;    
+   
 }
 
 #logo_DD{
+ 
     width: 50px;
     height: 50px;
    
@@ -94,17 +126,18 @@ a:hover {
 #DD{
     width: 150px;
     height: 100%;
-    margin-top: 13px;
+    margin-top: 5%;
     margin-left: 10px;
    
 }
 
 .logo_menu{
-    float: right;
-    margin-left:52%;
-    text-align: right;
+    
+    text-align: center;
+    justify-content:center;
     align-content: center;
     font-size: 14pt;
+
    
 }
 
@@ -249,6 +282,12 @@ a:hover {
     font-size: xx-large;
 }
 
+@media (max-width: 768px) {
+  /* Estilos para telas menores que 768px */
+  h1 {
+    font-size: 1.5em;
+  }
+}
 .primeiro {
     background-color: #CBCAF0;
     position: relative; /* Torna a div "primeiro" um contêiner de posicionamento */
